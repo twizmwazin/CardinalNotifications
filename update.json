@@ -1,0 +1,13 @@
+{
+  "text": "Thank you for using Cardinal! You can report any bugs ",
+  "color": "gold",
+  "extra": [
+    {
+      "text": "on GitHub.",
+      "clickEvent": {
+        "action": "open_url",
+        "value": "https://github.com/twizmwazin/CardinalPGM"
+      }
+    }
+  ]
+}
