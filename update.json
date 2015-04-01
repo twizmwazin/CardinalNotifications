@@ -4,6 +4,7 @@
   "extra": [
     {
       "text": "on GitHub.",
+      "underlined": "true",
       "clickEvent": {
         "action": "open_url",
         "value": "https://github.com/twizmwazin/CardinalPGM"
