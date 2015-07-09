@@ -1,14 +1,4 @@
 {
-  "text": "Thank you for using Cardinal! You can report any bugs ",
-  "color": "gold",
-  "extra": [
-    {
-      "text": "on GitHub.",
-      "underlined": "true",
-      "clickEvent": {
-        "action": "open_url",
-        "value": "https://github.com/twizmwazin/CardinalPGM"
-      }
-    }
-  ]
+  "text": "Cardinal supports free maps. Please show your support for free maps in game and on the Overcast forums. Cardinal servers depend on free maps, don't allow others to restrict your freedom.",
+  "color": "aqua"
 }
