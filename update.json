@@ -1,4 +1,30 @@
 {
-  "text": "Cardinal supports free maps. Please show your support for free maps in game and on the Overcast forums. Cardinal servers depend on free maps, don't allow others to restrict your freedom.",
-  "color": "aqua"
+  "text":"Cardinal has been updated to 1.9!\nRead more about it: ",
+  "color":"aqua",
+  "bold":"true",
+  "extra":[
+    {"text":"[","color":"gold"},
+	{"text":"EN","color":"dark_red","underlined":"true",
+	  "clickEvent":{
+	    "action":"open_url",
+	    "value":"https://github.com/twizmwazin/CardinalPGM/wiki/1.9-update"
+	  },
+	  "hoverEvent":{
+	    "action":"show_text",
+	    "value":{"text":"Go to the wiki (English)","color":"gold"}
+	  }
+	},
+	{"text":"|","color":"gold"},
+	{"text":"ES","color":"dark_red","underlined":"true",
+	  "clickEvent":{
+	    "action":"open_url",
+	    "value":"https://github.com/twizmwazin/CardinalPGM/wiki/Actualización-1.9"
+	  },
+	  "hoverEvent":{
+	    "action":"show_text",
+	    "value":{"text":"Ir a la wiki (Español)","color":"gold"}
+	  }
+	},
+	{"text":"]","color":"gold"}
+  ]
 }
