@@ -18,11 +18,11 @@
 	{"text":"ES","color":"dark_red","underlined":"true",
 	  "clickEvent":{
 	    "action":"open_url",
-	    "value":"https://github.com/twizmwazin/CardinalPGM/wiki/Actualización-1.9"
+	    "value":"https://github.com/twizmwazin/CardinalPGM/wiki/Actualizaci%C3%B3n-1.9"
 	  },
 	  "hoverEvent":{
 	    "action":"show_text",
-	    "value":{"text":"Ir a la wiki (Español)","color":"gold"}
+	    "value":{"text":"Ir a la wiki (Espa\u00F1ol)","color":"gold"}
 	  }
 	},
 	{"text":"]","color":"gold"}
