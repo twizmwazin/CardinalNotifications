@@ -1,30 +1,56 @@
-{
-  "text":"Cardinal has been updated to 1.9/1.10!\nRead more about it: ",
-  "color":"aqua",
-  "bold":"true",
-  "extra":[
-    {"text":"[","color":"gold"},
-	{"text":"EN","color":"dark_red","underlined":"true",
-	  "clickEvent":{
-	    "action":"open_url",
-	    "value":"https://github.com/twizmwazin/CardinalPGM/wiki/1.9-update"
-	  },
-	  "hoverEvent":{
-	    "action":"show_text",
-	    "value":{"text":"Go to the wiki (English)","color":"gold"}
-	  }
+["",{
+	"text": "Soon, SportBukkit & Cardinal will no longer be supporting Java versions <8.",
+	"color": "aqua",
+	"italic": "true",
+	"clickEvent": {
+		"action": "open_url",
+		"value": "https://oc.tc/forums/posts/57fc5a26c296351b8f00006f"
 	},
-	{"text":"|","color":"gold"},
-	{"text":"ES","color":"dark_red","underlined":"true",
-	  "clickEvent":{
-	    "action":"open_url",
-	    "value":"https://github.com/twizmwazin/CardinalPGM/wiki/Actualizaci%C3%B3n-1.9"
-	  },
-	  "hoverEvent":{
-	    "action":"show_text",
-	    "value":{"text":"Ir a la wiki (Espa\u00F1ol)","color":"gold"}
-	  }
+	"hoverEvent": {
+		"action": "show_text",
+		"value": {
+			"text": "Click me!",
+			"color": "green"
+		}
+	}
+}, {
+	"text": "  To see if your server is ready, ",
+	"color": "aqua"
+}, {
+	"text": "update Cardinal",
+	"color": "green",
+	"bold": "true",
+	"italic": "true",
+	"underlined": "true",
+	"clickEvent": {
+		"action": "run_command",
+		"value": "/cardinal -u"
 	},
-	{"text":"]","color":"gold"}
-  ]
-}
+	"hoverEvent": {
+		"action": "show_text",
+		"value": {
+			"text": "/cardinal -u",
+			"color": "green"
+		}
+	}
+}, {
+	"text": " and run ",
+	"color": "aqua"
+}, {
+	"text": "/cardinal -v",
+	"color": "green",
+	"bold": "true",
+	"italic": "true",
+	"underlined": "true",
+	"clickEvent": {
+		"action": "run_command",
+		"value": "/cardinal -v"
+	},
+	"hoverEvent": {
+		"action": "show_text",
+		"value": {
+			"text": "/cardinal -v",
+			"color": "green"
+		}
+	}
+}]
